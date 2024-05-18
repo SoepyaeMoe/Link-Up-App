@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+    @apply bg-blue-600 text-gray-50
+}
+
+.btn {
+    @apply px-4 py-2 uppercase font-semibold text-xs rounded hover:cursor-pointer shadow-lg
+}
+
+.btn-outline {
+    @apply border-2 rounded-md md:py-2 md:px-6 py-1 px-3 uppercase font-semibold text-xs md:text-sm duration-300
+}
+
+.btn-success {
+    @apply bg-green-600 hover:bg-green-700
+}
+
+.btn-danger {
+    @apply bg-red-600 hover:bg-red-700
+}
+
+.form-control {
+    @apply w-[100%] py-2 px-1 bg-gray-100 border rounded
+}
